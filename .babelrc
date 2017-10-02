@@ -1,0 +1,10 @@
+{
+  "presets": ["react"],
+  "plugins": [
+    "syntax-dynamic-import",
+    ["import-inspector", {
+      "webpackRequireWeakId": true
+    }],
+    "react-hot-loader/babel"
+  ]
+}
